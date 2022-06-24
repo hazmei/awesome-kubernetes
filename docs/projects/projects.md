@@ -11,7 +11,9 @@ Projects
 * [Ambassador](http://www.getambassador.io) - API Gateway built on the Envoy Proxy
 * [Argo](https://github.com/argoproj/argo) - The Workflow Engine for Kubernetes
 * [Bitnami Kubernetes Production Runtime](https://kubeprod.io)
+* [Capact](https://github.com/capactio/capact) - A framework to manage applications and infrastructure in a unified way
 * [Client Libraries](https://github.com/kubernetes/website/blob/master/content/en/docs/reference/using-api/client-libraries.md)
+* [Clusterpedia](https://github.com/clusterpedia-io/clusterpedia) - Complex resource searches across multiple clusters, support simultaneous search of a single kind of resource or multiple kinds of resources existing in multiple clusters.
 * [Escalator](https://github.com/atlassian/escalator) - A batch or job optimized horizontal autoscaler for Kubernetes
 * [Fairwinds Pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes
 * [Fairwinds Polaris](https://github.com/reactiveops/polaris) - An open source dashboard for Kubernetes best practices
@@ -39,6 +41,7 @@ Projects
 * [Pixie](https://github.com/pixie-labs/pixie) - Live-debug multi-cluster K8s environments without changing code and moving data off-cluster.
 * [KubeEdge](https://kubeedge.io) - An open platform to enable Edge computing
 * [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper) - Mirror images into your own registry and swap image references automatically.
+* [configurator](https://github.com/gopaddle-io/configurator) - A version control and a sync service that keeps Kubernetes ConfigMaps and Secrets in sync with the deployment.
 
 ## Package Managers
 
@@ -69,6 +72,8 @@ Projects
 * [Kubespy](https://github.com/pulumi/kubespy) - Tools for observing Kubernetes resources in real time, powered by Pulumi.
 * [Kubetail](https://github.com/johanhaleby/kubetail)
 * [Kubewatch](https://github.com/skippbox/kubewatch)
+* [kwatch](https://github.com/abahmed/kwatch) - monitor & detect crashes in your Kubernetes(K8s) cluster instantly
+* [Mizu](https://github.com/up9inc/mizu) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices, multiprotocol support: HTTP1.1, HTTP/2, AMQP, Kafka, Redis. 
 * [Netdata](https://www.netdata.cloud) - Open-source Kubernetes monitoring. Deploy via a Netdata [Helm chart](https://github.com/netdata/helmchart).
 * [Netsil](https://github.com/netsil/manifests)
 * [New Relic](https://newrelic.com/platform/kubernetes) - Kubernetes monitoring and visualization service.
@@ -93,14 +98,15 @@ Projects
 *Test your applications running on Kubernetes*
 
 * [chaoskube](https://github.com/linki/chaoskube) - periodically kills random pods in your Kubernetes cluster
+* [DETIK](https://github.com/bats-core/bats-detik) - BATS extension for end-to-end tests of K8s applications
 * [k8s-testsuite](https://github.com/mrahbar/k8s-testsuite) - Helm chart for network and loadtesting of a Kubernetes cluster
 * [kboom](https://github.com/mhausenblas/kboom) - The Kubernetes scale & soak load tester
-* [Krucible](https://usekrucible.com/) - Quickly create temporary Kubernetes clusters for testing 
+* [Krucible](https://usekrucible.com/) - Quickly create temporary Kubernetes clusters for testing
 * [kind](https://github.com/bsycorp/kind) - A single node cluster to run your CI tests against thats ready in 30 seconds
 * [k3d](https://github.com/rancher/k3d) - Quickly create single- or multi-node k3s clusters in containerized nodes
 * [kube-monkey](https://github.com/asobti/kube-monkey) - Chaos Monkey for Kubernetes clusters
 * [Kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) - multi-node test cluster based on kubeadm
-* [KUTTL](https://kuttl.dev) - KUTTL (Kubernetes Test Tool) is a toolkit for testing Kubernetes Operators 
+* [KUTTL](https://kuttl.dev) - KUTTL (Kubernetes Test Tool) is a toolkit for testing Kubernetes Operators
 * [PowerfulSeal](https://github.com/bloomberg/powerfulseal) - kills targeted pods and machines to test your software reliability
 * [Sonobuoy](https://github.com/vmware-tanzu/sonobuoy) - Diagnostic tool that runs Kubernetes conformance tests
 * [Test-Infra](https://github.com/kubernetes/test-infra)
@@ -116,7 +122,6 @@ Projects
 * [Jenkins](https://jenkins.io)
    * [Jenkins-Kubernetes Plugin](https://github.com/jenkinsci/kubernetes-plugin) by [Carlos Sanchez](https://www.twitter.com/csanchez)
    * [Automated Image Builds with Jenkins, Packer, and Kubernetes](https://cloudplatform.googleblog.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html)
-   * [On-demand Jenkins slaves with Kubernetes and the Google Container Engine](http://www.cloudbees.com/blog/demand-jenkins-slaves-kubernetes-and-google-container-engine)
    * [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
    * [Jenkins Operator - Kubernetes native Jenkins operator](https://github.com/jenkinsci/kubernetes-operator)
 * [Jenkins X](http://jenkins-x.io/) - automated CI/CD for Kubernetes with GitOps Promotion and Preview Environments on Pull Requests using best of breed OSS tools like: Jenkins, Helm, Skaffold, Kaniko, Knative Build, Knative Pipeline and Prow
@@ -132,11 +137,8 @@ Projects
 * [Keel](https://keel.sh/)
 * [Kit](http://invisionapp.github.io/kit/)
 * [Kontinuous](https://github.com/AcalephStorage/kontinuous)
-* [KubeCI](https://github.com/kubeciio)
 * [Razee](https://github.com/razee-io/Razee)
-* [Shippable](http://blog.shippable.com/topic/kubernetes)
 * [Shipper](https://github.com/bookingcom/shipper) - Kubernetes native multi-cluster canary or blue-green rollouts using Helm.
-* [Spinnaker](http://www.spinnaker.io/blog/deploy-to-kubernetes-using-spinnaker)
 * [Vili](https://github.com/airware/vili)
 * [Weave Flux – GitOps reconcoliation operator](https://github.com/weaveworks/flux)
 * [Wercker](http://blog.wercker.com/topic/kubernetes)
@@ -187,6 +189,7 @@ Projects
 * [PostgreSQL](https://github.com/zalando-incubator/postgres-operator) - manage PostgreSQL clusters using StatefulSets and [Patroni](https://github.com/zalando/patroni).
 * [Prometheus](https://github.com/coreos/prometheus-operator)
 * [Shell-operator](https://github.com/flant/shell-operator) - a tool for running event-driven scripts in a Kubernetes cluster.
+* [Terraform Controller](http://github.com/appvia/terraform-controller) - manages the lifecycle of terraform resources and leverages guardrails to provide an environment where developers to self-serve cloud resources
 * [TiDB Operator](https://github.com/pingcap/tidb-operator) - TiDB Operator manages TiDB clusters on Kubernetes and automates tasks related to operating a TiDB cluster.
 * [Vitess Operator](https://github.com/planetscale/vitess-operator)
 
@@ -224,7 +227,7 @@ Projects
 * [MongoDB](http://www.mongodb.com/blog/post/running-mongodb-as-a-microservice-with-docker-and-kubernetes)
 * [PlanetScaleDB](https://www.planetscale.com)
 * [RDS](https://github.com/sorenmat/k8s-rds) - Provision RDS databases via CRD from Kubernetes
-* [TiDB](https://github.com/pingcap/tidb) -  Distributed HTAP database compatible with the MySQL protocol 
+* [TiDB](https://github.com/pingcap/tidb) -  Distributed HTAP database compatible with the MySQL protocol
 * [Vitess](http://vitess.io/) - Horizontal scaling of MySql by Youtube
 * [YugabyteDB](https://docs.yugabyte.com/latest/deploy/kubernetes/) - Horizontally scalable, Postgres-compatible SQL database.
 
@@ -238,7 +241,6 @@ Projects
 * [Cisco ACI](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/kb/b_Kubernetes_Integration_with_ACI.html) - CNI plugin from Cisco support ACI fabrics
 * [CNI-Genie](https://github.com/Huawei-PaaS/CNI-Genie)
 * [cni-ipvlan-vpc-k8s](https://github.com/lyft/cni-ipvlan-vpc-k8s)
-* [Contiv](http://contiv.github.io/)
 * [External DNS](https://github.com/kubernetes-incubator/external-dns) - To control DNS records dynamically via Kube resources
 * [Goldpinger](https://github.com/bloomberg/goldpinger) display, monitor and alert on inter-cluster connectivity
 * [illuminatio](https://github.com/inovex/illuminatio) is a tool for automatically testing kubernetes network policies
@@ -266,7 +268,6 @@ Projects
 * [Linkerd](http://linkerd.io/getting-started/k8s/)
 * [Weave Mesh](https://github.com/weaveworks/mesh)
 * [Maesh: Simpler Service Mesh](https://github.com/containous/maesh) - Maesh is a straight-forward, easy to configure, and non-invasive service mesh that allows visibility and management of the traffic flows inside any Kubernetes cluster.
-* [Kuma: The Universal Service Mesh](https://github.com/kong/kuma) - Build, Secure and Observe your modern Service Mesh.
 * [Cilium](https://cilium.io/) - eBPF-based Networking, Observability, and Security
 
 ## RPC
@@ -294,17 +295,18 @@ Projects
 * [Kubevious](https://github.com/kubevious/kubevious) - An open source UI to make Kubernetes configuration and state obvious and safe.
 * [Octant](https://github.com/vmware-tanzu/octant) - A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 * [KubeHelper](https://github.com/KubeHelper/kubehelper) - KubeHelper - simplifies many daily Kubernetes cluster tasks through a web interface.
+* [Portainer](https://github.com/portainer/portainer) - Containerized web-based UI for managing for Docker, Docker Swarm and Kubernetes environments.
 
 ## Desktop applications
 
 * [Kubernetic](https://kubernetic.com/)
 * [Kube Forwarder](http://kube-forwarder.pixelpoint.io) – An open source Kubernetes port forwarding manager
 * [Lens](https://github.com/lensapp/lens) - The Ultimate Dashboard For Kubernetes.
+* [Monokle](https://github.com/kubeshop/monokle/) - helps you create, edit and validate yaml manifests, visualize and validate resource links and dependencies, connect and compare resources to your clusters, debug the output of kustomize and helm, and more!
 
 ## Mobile applications
 
 * [Cabin](https://github.com/bitnami/cabin)
-* [Cockpit](http://cockpit-project.org/guide/latest/feature-kubernetes.html)
 
 ## API/CLI adaptors
 
@@ -337,13 +339,14 @@ Projects
 * [kubectl-neat](https://github.com/itaysk/kubectl-neat) - Clean up Kuberntes yaml and json output
 * [Kubie](https://github.com/sbstp/kubie) - An alternative to kubectx, kubens and the k on prompt modification script
 * [kube-shell](https://github.com/cloudnativelabs/kube-shell) - An integrated shell for working with the Kubernetes CLI
+* [Portainer](https://github.com/portainer/portainer) - Secure REST API proxy to Kubernetes environments, enabling integrations with external tools.
 
 ## Application deployment orchestration
 
 * [AppController](https://github.com/Mirantis/k8s-AppController)
 * [Brigade](https://github.com/Azure/brigade) - Event Based Scripting using JavaScript
 * [Deployment manager](https://cloud.google.com/deployment-manager/)
-* [ElasticKube](https://elasticbox.com/kubernetes)
+* [ElasticKube](https://github.com/ElasticBox/elastickube)
 * [Gitkube](https://github.com/hasura/gitkube/) - Build and deploy docker images on Kubernetes using `git push`.
 * [IBM UrbanCode](https://developer.ibm.com/urbancode/plugin/kubernetes/)
 * [Kb8or](https://github.com/UKHomeOffice/kb8or)
@@ -355,6 +358,7 @@ Projects
 ## Configuration
 
 * [Ansible](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+* [Astrobase](https://www.astrobase.cloud)
 * [cdk8s](https://cdk8s.io) - Define Kubernetes apps and reusable components using familiar programming languages
 * [Chef](http://supermarket.chef.io/cookbooks/kubernetes)
 * [Habitat](http://www.habitat.sh/docs/best-practices/#kubernetes)
@@ -377,15 +381,16 @@ Projects
 * [kosko](https://github.com/tommy351/kosko) - Write Kubernetes manifests in JavaScript and validate against Kubernetes OpenAPI definitions.
 * [MicroConfig](https://microconfig.io) - Awesome tool for microservice configuration management. Works with app configs, helm values, kubernetes resources and more.
 * [Untrak](https://github.com/yanc0/untrak) - Finds untracked resources in Kubernetes cluster, garbage collect them.
+* [Project Syn](https://syn.tools) - Brings a hierarchical configuration management based on GitOps principles
 
 ## Security
 * [kubiscan](https://github.com/cyberark/KubiScan) - A tool to scan Kubernetes cluster for risky pods and RBAC permissions
 * [kubeletctl](https://github.com/cyberark/kubeletctl) - A client for kubelet with advanced capabilities like scanning for pods vulnerable for RCE
+* [Anchore Engine](https://github.com/anchore/anchore-engine) - An open-source project that provides a centralized service for inspection, analysis, and certification of container images.
 * [Aquasec](http://blog.aquasec.com/topic/kubernetes)
 * [Authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster
-* [Calico Network Policy (from Tigera)](https://docs.projectcalico.org/master/introduction/) - Widely adopted open source implementation unifying Kubernetes Network Policy and Istio Application Policy.
-* [Deepfence Enterprise](https://deepfence.io) - Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless.
-* [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
+* [Deepfence ThreatStryker](https://deepfence.io/threatstryker) - Full life cycle Cloud Native Security Observability Platform for kubernetes, virtual machines and serverless.
+* [Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper) - Apache v2, powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
 * [Dex](https://github.com/dexidp/dex) - OpenID and OAuth for Kubernetes
 * [Fairwinds Insights](https://fairwinds.com/insights) - Security policy and enforcement for Kubernetes
 * [Guard](https://github.com/appscode/guard) - Authenticaton webhook server with support for Github, Gitlab, Google, Azure and LDAP (AD) as identity providers.
@@ -400,13 +405,12 @@ Projects
 * [Rakkess](https://github.com/corneliusweig/rakkess) - Kubectl plugin to show an access matrix for all available resources.
 * [Sysdig Falco](https://sysdig.com/opensource/falco/)
 * [Sysdig Secure](http://www.sysdig.com/products/secure)
-* [Tigera Secure Cloud Edition](https://www.tigera.io/tigera-secure-ce/)
-* [Tigera Secure Enterprise Edition](https://www.tigera.io/tigera-secure-ee/)
-* [Trireme](http://github.com/aporeto-inc/trireme-kubernetes)
+* [Tigera Calico Enterprise Edition](https://www.tigera.io/tigera-products/calico-enterprise/)
 * [Twistlock](http://www.twistlock.com/)
 
 ## Load balancing
 
+* [Apache APISIX - Cloud-Native API gateway and ingress controller](https://github.com/apache/apisix)
 * [Avi Networks - Software Load Balancer | Intelligent WAF | Elastic Service Mesh](https://avinetworks.com/)
 * [AWS ALB Ingress Controller](https://github.com/kubernetes-sigs/aws-alb-ingress-controller)
 * [Cloudflare Warp Ingress](https://github.com/cloudflare/cloudflare-ingress-controller)
@@ -457,7 +461,6 @@ Projects
 * [k3OS](https://github.com/rancher/k3os)
 * [LinuxKit](https://github.com/linuxkit/kubernetes)
 * [Talos](https://github.com/talos-systems/talos)
-* [RancherOS](https://rancher.com/rancher-os) - A lightweight, secure Linux distribution, built from containers to run containers well.
 
 ## YAML/JSON Config
 
@@ -466,6 +469,7 @@ Projects
 * [kube-libsonnet](https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet) - Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides.
 * [kubegen](https://github.com/errordeveloper/kubegen) - Reduces the verbosity of Kubernetes resource definitions, and adds macros for templating
 * [kubeval](https://github.com/garethr/kubeval) - CLI tool for validating a Kubernetes YAML or JSON configuration file
+* [helmify](https://github.com/arttor/helmify) - CLI tool to convert K8s YAMLs into a Helm chart
 
 ## Static Analysis
 
@@ -506,7 +510,7 @@ Projects
 ## Chaos Engineering
 
 * [Chaosblade](https://github.com/chaosblade-io/chaosblade): An easy to use and powerful chaos engineering experiment toolkit.
-* [Chaos Mesh](https://github.com/pingcap/chaos-mesh): A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments. 
+* [Chaos Mesh](https://github.com/pingcap/chaos-mesh): A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments.
 * [chaoskube](https://github.com/linki/chaoskube): `chaoskube` periodically kills random pods in your Kubernetes cluster.
 * [Chaos Toolkit](https://github.com/chaostoolkit/chaostoolkit): An Open API for Chaos Engineering.
 * [KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) - Gamified Chaos engineering tool for Kubernetes Clusters. It is like Space Invaders but alien ships are pods.
@@ -524,7 +528,7 @@ Persistent Volume Providers
 * [Hitachi](https://knowledge.hitachivantara.com/Documents/Adapters_and_Drivers/Storage_Adapters_and_Drivers/Containers/1.0/Storage_Plug-in_for_Containers_Quick_Reference_Guide_v1.0.0)
 * [HPE](https://github.com/hpe-storage/dory)
 * [Kube-Aliyun](https://github.com/kubeup/kube-aliyun)
-* [Linode](https://www.linode.com/blockstorage)
+* [Linode](https://www.linode.com/products/block-storage/)
 * [Microsoft](https://github.com/Microsoft/K8s-Storage-Plugins)
 * [NetApp Trident](https://github.com/NetApp/trident)
 * [OpenEBS](http://github.com/openebs/openebs/)
@@ -553,6 +557,7 @@ Container Storage Interface Plugins
 * [Ember](https://ember-csi.io)
 * [Google Compute Engine Persistent Disk](https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver)
 * [Intel PMEM-CSI](https://github.com/intel/pmem-CSI)
+* [JuiceFS](https://github.com/juicedata/juicefs-csi-driver)
 * [KaDalu - Gluster](https://github.com/kadalu/kadalu)
 * [Linode Block Storage](https://github.com/linode/linode-blockstorage-csi-driver)
 * [Longhorn](https://github.com/longhorn/longhorn)
