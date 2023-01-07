@@ -19,6 +19,8 @@ Projects
 * [Fairwinds Polaris](https://github.com/reactiveops/polaris) - An open source dashboard for Kubernetes best practices
 * [Fission Workflows](https://github.com/fission/fission-workflows) - Workflow-based serverless function composition
 * [Forecastle](https://github.com/stakater/Forecastle) - A dashboard which dynamically discovers and provides a launchpad to access applications deployed on Kubernetes
+* [Gefyra](https://github.com/gefyrahq/gefyra) - Connect Docker containers to any Kubernetes environment
+* [Getdeck](https://github.com/Getdeck/getdeck) - A CLI that creates reproducible Kubernetes environments for development and testing
 * [Git Webhook Proxy](https://github.com/stakater/GitWebhookProxy) - A proxy to let webhooks reach running services behind a firewall
 * [Hypernetes](https://github.com/hyperhq/hypernetes)
 * [Ingress Monitor Controller](https://github.com/stakater/IngressMonitorController) - Watches ingress endpoints and automatically registers liveness alerts on the configured uptime checker
@@ -114,6 +116,7 @@ Projects
 * [Octopus](https://github.com/kyma-incubator/octopus) - Octopus is a testing framework that allows you to run integration tests defined as Docker images on a Kubernetes cluster.
 * [KubePug](https://github.com/rikatz/kubepug) - Kubernetes Pre-Upgrade Checker
 * [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) - RobotFramework library for testing Kubernetes cluster
+* [Speedscale](https://speedscale.com/kubernetes/) - Speedscale is a traffic replay framework that simulates production conditions, so you can validate changes quickly and easily.
 
 ## Continuous Delivery
 
@@ -171,6 +174,7 @@ Projects
 * [etcd](https://github.com/coreos/etcd-operator)
 * [Istio](https://github.com/banzaicloud/istio-operator)
 * [K8s Operator Workshop](https://github.com/lukebond/cc-au-k8s-operators-workshop)
+* [k8tz](https://github.com/k8tz/k8tz) - Kubernetes admission controller and a CLI tool to inject timezones into Pods and CronJobs
 * [Kafka](https://github.com/krallistic/kafka-operator)
 * [Kong API](https://github.com/upmc-enterprises/kong-operator)
 * [kooper](https://github.com/spotahome/kooper) - Simple Go library to create Kubernetes operators and controllers
@@ -303,6 +307,7 @@ Projects
 * [Kube Forwarder](http://kube-forwarder.pixelpoint.io) – An open source Kubernetes port forwarding manager
 * [Lens](https://github.com/lensapp/lens) - The Ultimate Dashboard For Kubernetes.
 * [Monokle](https://github.com/kubeshop/monokle/) - helps you create, edit and validate yaml manifests, visualize and validate resource links and dependencies, connect and compare resources to your clusters, debug the output of kustomize and helm, and more!
+* [Aptakube](https://aptakube.com) - A modern, lightweight and multi-cluster desktop client for Kubernetes. Connect to multiple clusters simultaneously, as if it was just one big cluster. View, edit and manage all your resources from your desktop.
 
 ## Mobile applications
 
@@ -340,6 +345,7 @@ Projects
 * [Kubie](https://github.com/sbstp/kubie) - An alternative to kubectx, kubens and the k on prompt modification script
 * [kube-shell](https://github.com/cloudnativelabs/kube-shell) - An integrated shell for working with the Kubernetes CLI
 * [Portainer](https://github.com/portainer/portainer) - Secure REST API proxy to Kubernetes environments, enabling integrations with external tools.
+* [kubernetes-el](https://github.com/kubernetes-el/kubernetes-el) - Kubernetes client for Emacs
 
 ## Application deployment orchestration
 
@@ -482,6 +488,7 @@ Projects
 
 ## Backup and Disaster Recovery
 
+* [Kanister](https://github.com/kanisterio/kanister) - An extensible framework for application-level data management on Kubernetes.
 * [Velero](https://github.com/vmware-tanzu/velero) - Utility for managing backup and restore of Kubernetes clusters. Formerly Heptio Ark.
 * [K8up](https://github.com/vshn/k8up) - Kubernetes and OpenShift Backup Operator based on restic
 * [burry.sh](https://github.com/mhausenblas/burry.sh) - Cloud Native backup and recovery for etcd, zookeeper and consul
@@ -502,6 +509,7 @@ Projects
 ## Debug
 
 * [Kubectl-Debug](https://github.com/aylei/kubectl-debug)
+* [mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your k8s cluster, letting you run local code in cloud conditions. 
 
 ## Benchmark Tools
 
