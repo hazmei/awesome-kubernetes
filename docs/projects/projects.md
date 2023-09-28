@@ -55,6 +55,7 @@ Projects
 
 *To maintain regular surveillance over kubernetes*
 
+* [Alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring
 * [Console](http://github.com/kubernetes/dashboard)
 * [BotKube](https://github.com/infracloudio/botkube) - App that helps you monitor your Kubernetes cluster, debug critical deployments & gives recommendations for the standard practices
 * [Datadog](http://www.datadoghq.com/)
@@ -117,6 +118,7 @@ Projects
 * [KubePug](https://github.com/rikatz/kubepug) - Kubernetes Pre-Upgrade Checker
 * [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) - RobotFramework library for testing Kubernetes cluster
 * [Speedscale](https://speedscale.com/kubernetes/) - Speedscale is a traffic replay framework that simulates production conditions, so you can validate changes quickly and easily.
+* [Stoat](https://docs.stoat.dev/) - Stoat helps you access and browse logs for Kubernetes tests run on GitHub actions 
 
 ## Continuous Delivery
 
@@ -282,6 +284,7 @@ Projects
 ## Secret generation and management
 
 * [CyberArk Conjur Kubernetes Authenticator](https://developer.conjur.net/reference/integrations/kubernetesopenshift.html) - Secure your Kubernetes-deployed applications with CyberArk Conjur
+* [External Secrets Operator](https://github.com/external-secrets/external-secrets/)
 * [k8sec](https://github.com/dtan4/k8sec)
 * [Kamus](https://github.com/Soluto/kamus) - A GitOps, zero-trust solution for secrets encryption/decryption solution.
 * [kubernetes-vault](https://github.com/Boostport/kubernetes-vault)
@@ -413,6 +416,7 @@ Projects
 * [Sysdig Secure](http://www.sysdig.com/products/secure)
 * [Tigera Calico Enterprise Edition](https://www.tigera.io/tigera-products/calico-enterprise/)
 * [Twistlock](http://www.twistlock.com/)
+* [M9sweeper](https://github.com/m9sweeper/m9sweeper) - Free security platform that wraps trivy, kubesec, kube-bench, OPA Gatekeeper, Project Falco, and kube-hunter
 
 ## Load balancing
 
@@ -433,6 +437,8 @@ Projects
 * [NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)
 * [Nginx Plus](http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/)
 * [Skipper](https://github.com/zalando/skipper) - HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
+* [Kong Ingress](https://github.com/Kong/kubernetes-ingress-controller): Kubernetes ingress controller for using Kong proxy
+* [Emissary Ingress](https://github.com/emissary-ingress/emissary): Emissary ingress built on top of Envoy
 * [Traefik](https://containo.us/traefik/)
 * [Voyager - Secure HAProxy based Ingress Controller](https://github.com/appscode/voyager)
 * [Yggdrasil - Envoy Control Plane for Kubernetes Multi-cluster Ingress](https://github.com/uswitch/yggdrasil)
@@ -444,6 +450,7 @@ Projects
 
 ## Machine Learning
 
+* [nos](https://github.com/nebuly-ai/nos) - `nos` is an open-source platform to efficiently run AI workloads on Kubernetes, increasing GPU utilization and reducing infrastructure and operational costs.
 * [FfDL](https://github.com/IBM/FfDL) - Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes
 * [Fiber](https://github.com/uber/fiber) - Distributed computing library for AI on Kubernetes.
 * [kubeflow](https://github.com/google/kubeflow) - Machine Learning Toolkit for Kubernetes.
@@ -464,6 +471,7 @@ Projects
 * [Fedora CoreOS](https://getfedora.org/en/coreos/)
 * [Flatcar Container Linux](https://www.flatcar-linux.org/)
 * [GCI](https://cloud.google.com/container-optimized-os/docs/)
+* [Kairos](https://github.com/kairos-io/kairos)
 * [k3OS](https://github.com/rancher/k3os)
 * [LinuxKit](https://github.com/linuxkit/kubernetes)
 * [Talos](https://github.com/talos-systems/talos)
@@ -608,6 +616,7 @@ Developer Libraries/ Scripts
   ### [Python](#python)
 
    - [Pykube](https://github.com/hjacobs/pykube)
+   - [kr8s](https://github.com/kr8s-org/kr8s)
 
   ### [Jenkins](#jenkins)
 
