@@ -44,6 +44,7 @@ Projects
 * [KubeEdge](https://kubeedge.io) - An open platform to enable Edge computing
 * [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper) - Mirror images into your own registry and swap image references automatically.
 * [configurator](https://github.com/gopaddle-io/configurator) - A version control and a sync service that keeps Kubernetes ConfigMaps and Secrets in sync with the deployment.
+* [KubeDiagrams](https://github.com/philippemerle/KubeDiagrams) - A command-line tool to generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state.
 
 ## Package Managers
 
@@ -64,8 +65,10 @@ Projects
 * [Goldpinger](https://github.com/bloomberg/goldpinger) display, monitor and alert on inter-cluster connectivity
 * [Grafana Kubernetes App](https://github.com/grafana/kubernetes-app)
 * [Heapster](https://github.com/kubernetes/heapster)
+* [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - On-Call/DevOps Assistant - Get a head start on fixing alerts with AI. Investigate Prometheus alerts, Jira/Pagerduty/Opsgenie tickets automatically.
 * [Instana](https://www.instana.com/) - Automatic Kubernetes Application Performance Monitoring
 * [kail](https://github.com/boz/kail) - Kubernetes Log Viewer. Streams logs from all containers of all matching pods.
+* [KRR](https://github.com/robusta-dev/krr) - Kubernetes CPU/Memory requests/limits recommendations based on existing data in Prometheus/Coralogix/Thanos/Mimir and more!
 * [Kubebox](https://github.com/astefanutti/kubebox) - Terminal console for Kubernetes
 * [Kubecost](https://kubecost.com/) - monitor resources following their financial cost
 * [Kubedash](https://github.com/kubernetes/kubedash) - **Deprecated** repository is archived and read-only
@@ -74,7 +77,7 @@ Projects
 * [Kubernetes Web View](https://codeberg.org/hjacobs/kube-web-view) - list and view all Kubernetes resources (incl. CRDs) with permalink-friendly URLs in a plain-HTML frontend
 * [Kubespy](https://github.com/pulumi/kubespy) - Tools for observing Kubernetes resources in real time, powered by Pulumi.
 * [Kubetail](https://github.com/johanhaleby/kubetail)
-* [Kubewatch](https://github.com/skippbox/kubewatch)
+* [Kubewatch](https://github.com/robusta-dev/kubewatch) - Kubernetes watcher that publishes k8s events and trigger handler notification to available collaboration hubs/notification channels.
 * [kwatch](https://github.com/abahmed/kwatch) - monitor & detect crashes in your Kubernetes(K8s) cluster instantly
 * [Mizu](https://github.com/up9inc/mizu) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices, multiprotocol support: HTTP1.1, HTTP/2, AMQP, Kafka, Redis. 
 * [Netdata](https://www.netdata.cloud) - Open-source Kubernetes monitoring. Deploy via a Netdata [Helm chart](https://github.com/netdata/helmchart).
@@ -84,6 +87,7 @@ Projects
 * [Outcold Solutions](https://www.outcoldsolutions.com) - monitoring Kubernetes, OpenShift and Docker in Splunk Enterprise and Splunk Cloud (metrics and log forwarding)
 * [Prometheus](http://prometheus.io)
 * [Replex.io](https://replex.io) - Kubernetes Governance & Cost Control.
+* [Robusta.dev](https://github.com/robusta-dev/robusta) - Better Prometheus Alerts for Kubernetes with ability to Enrich, Group, and Remediate your Alerts.
 * [Searchlight](https://github.com/appscode/searchlight)
 * [Sematext](https://sematext.com/)
 * [StatusBay](https://github.com/similarweb/statusbay) - Kubernetes deployment visibility (inc. Slack notifications, metrics and checks enrichment, resources consolidation, etc)
@@ -95,11 +99,14 @@ Projects
 * [loki](https://github.com/grafana/loki) - Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [Loghouse](https://github.com/flant/loghouse) - Efficiently store big amounts of your logs (in ClickHouse database), process them using a simple query language and monitor them online through web UI.
 * [kube-eventer](https://github.com/AliyunContainerService/kube-eventer) - kube-eventer emit kubernetes events to sinks (kafka, slack, webhook, etc)
+* [VictoriaMetrics](https://docs.victoriametrics.com/) - VictoriaMetrics: fast, cost-effective monitoring solution and time series database.
+* [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) - VictoriaLogs is a fast and easy-to-use, open source logs solution. Highly scalable on cloud, kubernetes or on-premise setups.
 
 ## Testing
 
 *Test your applications running on Kubernetes*
 
+* [Chainsaw](https://github.com/kyverno/chainsaw) - The ultimate end to end testing tool for Kubernetes operators
 * [chaoskube](https://github.com/linki/chaoskube) - periodically kills random pods in your Kubernetes cluster
 * [DETIK](https://github.com/bats-core/bats-detik) - BATS extension for end-to-end tests of K8s applications
 * [k8s-testsuite](https://github.com/mrahbar/k8s-testsuite) - Helm chart for network and loadtesting of a Kubernetes cluster
@@ -256,7 +263,7 @@ Projects
 * [kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
 * [Kuryr](https://github.com/openstack/kuryr-kubernetes)
 * [Linen](https://github.com/John-Lin/linen-cni)
-* [Multus-cni](https://github.com/Intel-Corp/multus-cni) - Multi-homed pod cni
+* [Multus-cni](https://github.com/k8snetworkplumbingwg/multus-cni) - Multi-homed pod cni
 * [Network-Controller](https://github.com/linkernetworks/network-controller) - Open vSwitch, Multiple network interfaces that associate with Kubernetes pods
 * [NSX-T](https://www.vmware.com/products/nsx/cloud-native-apps.html) - CNI plugin supporting load balancing and distributed firewalls.
 * [Nuage](https://github.com/nuagenetworks/nuage-kubernetes)
@@ -303,6 +310,7 @@ Projects
 * [Octant](https://github.com/vmware-tanzu/octant) - A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 * [KubeHelper](https://github.com/KubeHelper/kubehelper) - KubeHelper - simplifies many daily Kubernetes cluster tasks through a web interface.
 * [Portainer](https://github.com/portainer/portainer) - Containerized web-based UI for managing for Docker, Docker Swarm and Kubernetes environments.
+* [CyclopsUI](https://github.com/cyclops-ui/cyclops) - Dynamically rendered UI for Kubernetes resources based on Helm templating engine
 
 ## Desktop applications
 
@@ -311,6 +319,9 @@ Projects
 * [Lens](https://github.com/lensapp/lens) - The Ultimate Dashboard For Kubernetes.
 * [Monokle](https://github.com/kubeshop/monokle/) - helps you create, edit and validate yaml manifests, visualize and validate resource links and dependencies, connect and compare resources to your clusters, debug the output of kustomize and helm, and more!
 * [Aptakube](https://aptakube.com) - A modern, lightweight and multi-cluster desktop client for Kubernetes. Connect to multiple clusters simultaneously, as if it was just one big cluster. View, edit and manage all your resources from your desktop.
+* [Kubernetes Insider for Docker Desktop](https://github.com/spurin/kubernetes-insider) - The Kubernetes Insider provides quick and easy access to Kubernetes Pods/Deployments and Services, running in Docker Desktop Kubernetes.
+* [K8Studio](https://github.com/guiqui/k8Studio) - K8Studio is a cross-platform client IDE to manage Kubernetes Clusters.
+* [KFtray](https://github.com/hcavarsan/kftray) - Manage and run multiple kubectl port-forward configurations directly in the menu bar, syncing configurations with git repositories.
 
 ## Mobile applications
 
@@ -339,7 +350,7 @@ Projects
 * [Kubesh](https://github.com/projectodd/kubernetes/blob/kubesh/cmd/kubesh/README.md) - Work around kubectl
 * [Kui](https://github.com/IBM/kui) - Hybrid CLI/GUI alternative to kubectl
 * [StackStorm](https://github.com/StackStorm/st2)
-* [stern](https://github.com/wercker/stern) - Multi pod and container log tailing
+* [stern](https://github.com/stern/stern) - Multi pod and container log tailing
 * [Vikube](https://github.com/c9s/vikube.vim) - Kubernetes operations from Vim, in Vim
 * [K9s](https://github.com/derailed/k9s) - Kubernetes CLI To Manage Your Clusters In Style!
 * [tubectl](https://github.com/reconquest/tubekit) - Kubernetes CLI on steroids with pattern matching
@@ -431,6 +442,7 @@ Projects
 * [HAProxy Ingress](https://github.com/jcmoraisjr/haproxy-ingress)
 * [k8gb](https://www.k8gb.io/) - A cloud native Kubernetes Global Balancer
 * [Linode NodeBalancer Ingress](https://github.com/linode/linode-cloud-controller-manager)
+* [LoxiLB](https://github.com/loxilb-io/loxilb) - eBPF based cloud-native load-balancer for any Kubernetes environments.
 * [MetalLB](https://metallb.universe.tf/) - load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.
 * [Porter](https://github.com/kubesphere/porter) - a load balancer which is designed for a bare metal Kubernetes cluster. It's implemented by physical switch, and uses BGP and ECMP to achieve optimal performance and HA.
 * [PureLB](http://purelb.io) - open-source load-balancer orchestrator for Kubernetes clusters. It uses standard Linux networking and routing protocols, and works with the operating system to announce service addresses.
@@ -483,6 +495,7 @@ Projects
 * [kube-libsonnet](https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet) - Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides.
 * [kubegen](https://github.com/errordeveloper/kubegen) - Reduces the verbosity of Kubernetes resource definitions, and adds macros for templating
 * [kubeval](https://github.com/garethr/kubeval) - CLI tool for validating a Kubernetes YAML or JSON configuration file
+* [KubeQ](https://kubeq.click) - A fast, simple, and powerful web-based Kubernetes manifest validator. No installation or config needed—just paste your manifest and get instant feedback on quality, security, and best practices. Powered by kubeval, kube-score, and kubeaudit. Great for pre-commit validation, reviewing charts, teaching, and CI/CD linting.
 * [helmify](https://github.com/arttor/helmify) - CLI tool to convert K8s YAMLs into a Helm chart
 
 ## Static Analysis
@@ -556,6 +569,7 @@ Persistent Volume Providers
 * [Rook](http://rook.io/)
 * [StorageOS](http://storageos.com)
 * [Stork](https://github.com/libopenstorage/stork)
+* [simplyblock](https://simplyblock.io)
 
 Container Storage Interface Plugins
 =======================================================================
